@@ -4,9 +4,9 @@ Junior Frontend Developer
 ********* 
 
 ## Contact information
-*E-mail: irinapervykh17@gmail.com
-*Telegram: @rinapervykh
-*Phone: +7 981 911 88 69
+* E-mail: irinapervykh17@gmail.com
+* Telegram: @rinapervykh
+* Phone: +7 981 911 88 69
 
 
 ## About Mе
@@ -21,7 +21,8 @@ I'm studying front-end development because I've always wanted to be a software d
 ## Code example
 
 
-```function sum(a, b) {
+```
+function sum(a, b) {
   return a + b
 }
 
