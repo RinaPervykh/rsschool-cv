@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+  }
+
+  html {
+    scroll-behavior: smooth; 
+  }
+
+body{
+    font-family: 'Inter', sans-serif;
+    display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color:bisque;
+}
+
+a {
+    outline: none;
+    text-decoration: none;
+    color: black;
+}
+.wrapper {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+    .introduction {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    }
+
+    .photo {
+        border-radius: 100px; 
+    border: 3px solid red; 
+    box-shadow: 0 0 7px #666; 
+    width: 20%;
+    margin-right: 50px;
+    }
+
+    .nav {
+        display: flex;
+        justify-content:  space-between;
+        align-items: center;
+    }
+
+  .footer {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content:  space-between;
+    align-items: center;
+        
+  }
+
+  .rsschool {
+    width: 10%;
+  }
+ 
+  .github {
+    width: 60%;
+  }
+
+  .wrap_gh {
+    width: 200px;
+  }
